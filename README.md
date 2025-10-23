@@ -13,7 +13,29 @@ El caso de estudio plantea el lanzamiento de una plataforma de **comercio electr
 - **Registro de usuarios:** con nombre de usuario y contraseña.  
 
 ---
+## Estrucutura del proyecto
 
+```
+├── 📁 src
+│   ├── 📁 backend
+│   │   ├── 📁 api
+│   │   │   └── 📁 rest
+│   │   ├── 📁 config
+|   |   |   └──  .env
+│   │   ├── 📁 db
+│   │   │   └── 📄 init.sql
+│   │   └── 📝 README.md
+│   ├── 📁 deploy
+│   │   ├── 📁 aws-deploy
+│   │   └── 📁 on-premise-deploy
+│   └── 📁 frontend
+│       ├── 📝 README.md
+│       ├── 🌐 index.html
+│       ├── 📄 index.js
+│       └── 🎨 style.css
+├── 📄 LICENSE
+└── 📝 README.md
+```
 ##  Tecnologías Utilizadas
 
 ### Frontend
