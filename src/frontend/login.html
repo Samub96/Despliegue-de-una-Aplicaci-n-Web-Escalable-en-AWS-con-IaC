@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Mi Tienda - Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-nav">
+      <h1>Acceso</h1>
+      <nav>
+        <a class="btn" href="index.html">Catálogo</a>
+        <a class="btn" href="cart.html">Carrito</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section style="max-width:500px;margin:0 auto;">
+      <h2>Iniciar sesión</h2>
+      <form id="loginForm">
+        <label>Usuario</label><br>
+        <input id="loginUser" required><br><br>
+        <label>Contraseña</label><br>
+        <input id="loginPass" type="password" required><br><br>
+        <button class="btn" type="submit">Ingresar</button>
+      </form>
+
+      <hr>
+
+      <h2>Registro</h2>
+      <form id="regForm">
+        <label>Usuario</label><br>
+        <input id="regUser" required><br><br>
+        <label>Contraseña</label><br>
+        <input id="regPass" type="password" required><br><br>
+        <button class="btn" type="submit">Registrar</button>
+      </form>
+
+      <p id="message" style="margin-top:12px;color:#b00"></p>
+    </section>
+  </main>
+
+  <script src="js/utils.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>
